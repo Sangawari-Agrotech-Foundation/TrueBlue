@@ -11,7 +11,7 @@
 9-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:5:5-19:19
+11-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:5:5-23:19
 12        android:allowBackup="true"
 12-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -25,22 +25,42 @@
 17-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
 18-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="org.sangawari.trueblue.MainActivity" >
-20-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:12:9-18:20
-20-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:12:19-47
-21            <intent-filter>
-21-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:13:13-17:29
-22                <action android:name="android.intent.action.MAIN" />
-22-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:14:17-69
-22-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:14:25-66
-23
-24                <category android:name="android.intent.category.LAUNCHER" />
-24-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:16:17-77
-24-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:16:27-74
-25            </intent-filter>
-26        </activity>
-27    </application>
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity
+21-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:12:9-15:68
+22            android:name="org.sangawari.trueblue.Home"
+22-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:13:13-33
+23            android:label="@string/title_activity_home"
+23-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:14:13-56
+24            android:theme="@style/AppTheme.NoActionBar" />
+24-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:15:13-56
+25        <activity android:name="org.sangawari.trueblue.MainActivity" >
+25-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:18:17-69
+27-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:18:25-66
 28
-29</manifest>
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:20:17-77
+29-->C:\1_Personal\Android_Studio\TrueBlue\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\I517477\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+34            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\I517477\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+35            android:authorities="org.sangawari.trueblue.lifecycle-process"
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\I517477\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+36            android:exported="false"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\I517477\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+37            android:multiprocess="true" />
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\I517477\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+38    </application>
+39
+40</manifest>
